@@ -1,9 +1,7 @@
-import Header from "./Header"
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio.jsx";
 function App() {
 
   return(
-    <Header></Header>,
     <Portfolio></Portfolio>
   );
 }

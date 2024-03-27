@@ -1,8 +1,9 @@
 
 function Portfolio() {
-    const [projects, setProjects] = useState([]);
-    const [loading, setLoading] = useState(true);
   
+    const loadingText = {name: "The site is loading...."};
+    const [myProjects, setMyProjects] = useState([]);
+   
     useEffect(() => {
       fetch('https://api.github.com/users/Bighanz98/repos')
         .then(response => response.json())
@@ -20,10 +21,10 @@ function Portfolio() {
           <p>Laddar projekt...</p>
         ) : (
           <div>
-            {projects.map(project => (
-              <div key={project.id}>
-                <h2>{project.name}</h2>
-                <p>{project.description}</p>
+            {myProjects.map(myProjects => (
+              <div key={myProjects.id}>
+                <h2>{myProjects.name}</h2>
+                <p>{myProjects.description}</p>
               </div>
             ))}
           </div>
