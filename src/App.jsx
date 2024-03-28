@@ -16,7 +16,7 @@ function App() {
     <div>
       <header>
         <nav className="navbar"> {}
-          <button className="navbar-link larger-text" onClick={() => navigateTo("home")}>Startsida</button>
+          <button className="navbar-link larger-text " onClick={() => navigateTo("home")}>Startsida</button>
           <button className="navbar-link larger-text" onClick={() => navigateTo("portfolio")}>Portfolio</button>
         </nav>
       </header>

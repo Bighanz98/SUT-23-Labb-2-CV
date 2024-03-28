@@ -56,10 +56,6 @@
     color: black;
 }
 
-.navbar-link.current {
-    background-color: white;
-    color: black;
-}
 
 .larger-text {
     font-size: 20px; 
