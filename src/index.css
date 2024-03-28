@@ -1,0 +1,85 @@
+.project-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.project-card {
+    flex: 1; 
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid white; 
+    width: 300px; 
+    height: 320px; 
+}
+
+.project-card h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: white;
+    font-size: 24px; 
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar-link {
+    float: left;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar-link.current {
+    background-color: white;
+    color: black;
+}
+
+.larger-text {
+    font-size: 20px; 
+}
+
+
+body {
+    background-color: #333; 
+    color: #fff; 
+    font-size: 16px; 
+}
+
+footer {
+    background-color: black; 
+    color: #fff; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.loading-text {
+    font-size: 18px; 
+}
